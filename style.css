@@ -76,3 +76,53 @@ header {
   margin-left: 15px;
   display: none;
 }
+/* home section */
+section {
+  padding: 70px 12% 80px;
+}
+.home {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--second-bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.home-text h1 {
+  margin: 18px 0;
+  font-size: var(--h1-font);
+  font-weight: 800;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+.home-text h5 {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--main-color);
+}
+.home-text p {
+  color: var(--second-color);
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+.home-img img {
+  width: 100%;
+  height: auto;
+}
+.home-btn {
+  display: inline-block;
+  padding: 11.5px 30px;
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  font-size: var(--p-font);
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+}
+.home-btn i {
+  margin-right: 7px;
+}
+.home-btn:hover {
+  background-color: var(--main-color);
+}
