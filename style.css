@@ -76,6 +76,11 @@ header {
   margin-left: 15px;
   display: none;
 }
+header.sticky {
+  background: var(--bg-color);
+  padding: 13px 12%;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
 /* home section */
 section {
   padding: 70px 12% 80px;
@@ -125,4 +130,43 @@ section {
 }
 .home-btn:hover {
   background-color: var(--main-color);
+}
+.crafts-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  align-items: center;
+  gap: 1.7rem;
+  text-align: center;
+}
+
+.crafts {
+  padding: 90px 12% 20px;
+}
+.crafts-box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.crafts-box h6 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--main-color);
+}
+.crafts-box h3 {
+  margin: 8px 0px;
+  font-size: 26px;
+  font-weight: 700;
+}
+.crafts-btn {
+  display: inline-block;
+  font-size: var(--p-font);
+  color: var(--text-color);
+  border-bottom: 1px solid var(--text-color);
+}
+.crafts-box {
+  transition: all 0.5s ease;
+}
+.crafts-box:hover {
+  transform: translateY(-8px);
+  cursor: pointer;
 }
