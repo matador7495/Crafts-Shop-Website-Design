@@ -379,3 +379,33 @@ footer {
   transform: translateX(5px);
   color: var(--text-color);
 }
+/* copyright */
+.copyright {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 12% 20px;
+}
+.end-text p {
+  font-size: var(--p-font);
+  color: var(--second-color);
+}
+.end-img img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.top {
+  position: fixed;
+  bottom: 2.5rem;
+  right: 3rem;
+}
+.top i {
+  font-size: 20px;
+  color: var(--bg-color);
+  background-color: var(--main-color);
+  padding: 12px;
+  border-radius: 2rem;
+}
