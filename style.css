@@ -336,3 +336,46 @@ section {
 .blog-box:hover h3 {
   color: var(--main-color);
 }
+/* footer */
+footer {
+  padding: 70px 12% 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 2rem;
+}
+.footer-box {
+  display: flex;
+  flex-direction: column;
+}
+.footer-box h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.footer-box p {
+  color: var(--second-color);
+  font-size: var(--p-font);
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+.footer-box .footer-icons a {
+  display: inline-block;
+  font-size: 22px;
+  color: var(--second-color);
+  margin-right: 12px;
+  transition: all 0.6s;
+}
+.footer-box .footer-icons a:hover {
+  transform: scale(1.1) translateY(-4px);
+  color: var(--main-color);
+}
+.footer-box a {
+  font-size: 17px;
+  color: var(--second-color);
+  margin-bottom: 0.8rem;
+  transition: all 0.5s ease;
+}
+.footer-box a:hover {
+  transform: translateX(5px);
+  color: var(--text-color);
+}
