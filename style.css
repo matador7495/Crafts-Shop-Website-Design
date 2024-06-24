@@ -234,7 +234,7 @@ section {
 /* cta section */
 .cta-content {
   padding: 120px 100px;
-  background: url(../img/cta.webp);
+  background: url(./img/cta.webp);
   background-size: cover;
   background-position: center;
 }
